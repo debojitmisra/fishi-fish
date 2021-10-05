@@ -70,7 +70,7 @@ function draw() {
       restart.visible=false;
     
       if(keyDown(UP_ARROW)){
-        fishie.velocityY= -10;
+        fishie.velocityY= -;
       }
     
       fishie.velocityY= fishie.velocityY+0.5;
